@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Content/img/icon.png" type="image/png">
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Для Сабрины | by Luka</title>
+</head>
+<body>
+
+      <section class="section section1">
+    <div class="content">
+      <h1 style="font-weight: 600;">💖 Марченко Сабрина 💖</h1>
+        <div class="photo-wrapper">
+    <img src="./Content/img/1.png" alt="Фото любимой" class="photo">
+    <img src="./Content/img/sticker/flower.png" class="sticker sticker1" alt="">
+    <img src="./Content/img/sticker/heart.png" class="sticker sticker2" alt="">
+    <img src="./Content/img/sticker/sparkle.png" class="sticker sticker3" alt="">
+    <img src="./Content/img/sticker/star.png" class="sticker sticker4" alt="">
+        </div>
+      <p class="text">
+        Этот сайт — лишь маленькая попытка выразить, <br> как много ты для меня значишь. <br> Каждый миг с тобой — особенный.
+    </p>
+      <button class="button" onclick="scrollToSection('section2')">Далее</button>
+    </div>
+  </section>
+
+<section class="section section2" id="section2">
+    <canvas id="stars-canvas"></canvas>
+  <div class="content">
+
+    <p class="text">
+      💕 Спасибо, что <span>ты есть</span> 💕 <br> Каждая встреча <span>с тобой</span>,
+      для меня — большое счастье. <br>
+      Порой мне тяжело представить, что всё это реально.
+    </p>
+
+    <div class="image-scroller">
+      <div class="scroller-track">
+        <img src="./Content/img/3.png" alt="" class="scroll-image">
+        <img src="./Content/img/2.png" alt="" class="scroll-image">
+        <img src="./Content/img/4.png" alt="" class="scroll-image">
+        <img src="./Content/img/5.png" alt="" class="scroll-image">
+        <img src="./Content/img/3.png" alt="" class="scroll-image">
+        <img src="./Content/img/2.png" alt="" class="scroll-image">
+        <img src="./Content/img/4.png" alt="" class="scroll-image">
+        <img src="./Content/img/5.png" alt="" class="scroll-image">
+      </div>
+    </div>
+
+    <p class="text" style="margin-top: -40px;">
+      Данная секция — наше маленькое хранилище, <br>
+      где только <span>ты и я</span>.
+    </p>
+
+    <button class="button" onclick="scrollToSection('section3')">Дальше</button>
+  </div>
+</section>
+
+  <section class="section section3" id="section3">
+    <div class="heart-wrapper"> ❤️ </div>
+    <div>
+      <h2>Ты — моё вдохновение</h2>
+      <p class="text">
+        Все мои мечты становятся ярче, когда ты рядом. <br>
+        Я хочу идти по жизни, держась за твою руку. <br>
+        Спасибо тебе за все. 
+      </p>
+    </div>
+  </section>
+
+      <script src="./JavaScript/script.js"></script>
+    
+</body>
+</html>
